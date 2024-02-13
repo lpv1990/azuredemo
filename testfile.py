@@ -14,7 +14,7 @@ db = load_diabetes()
 X = db.data
 y = db.target
 X_train, X_test, y_train, y_test = train_test_split(X, y)
-
+print("hello")
 expermentname="/Users/l.prasanna.velaga@accenture.com/demoflow"
 project_id=1401579914566548
 mlflow.set_experiment(experiment_id=project_id)
